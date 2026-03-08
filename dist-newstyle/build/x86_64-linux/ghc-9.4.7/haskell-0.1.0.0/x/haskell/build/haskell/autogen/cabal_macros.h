@@ -20,6 +20,56 @@
   (major1) == 4 && (major2) <  17 || \
   (major1) == 4 && (major2) == 17 && (minor) <= 2)
 #endif /* MIN_VERSION_base */
+/* package bytestring-0.11.5.2 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.11.5.2"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  11 || \
+  (major1) == 0 && (major2) == 11 && (minor) <= 5)
+#endif /* MIN_VERSION_bytestring */
+/* package cassava-0.5.4.1 */
+#ifndef VERSION_cassava
+#define VERSION_cassava "0.5.4.1"
+#endif /* VERSION_cassava */
+#ifndef MIN_VERSION_cassava
+#define MIN_VERSION_cassava(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 4)
+#endif /* MIN_VERSION_cassava */
+/* package scotty-0.30 */
+#ifndef VERSION_scotty
+#define VERSION_scotty "0.30"
+#endif /* VERSION_scotty */
+#ifndef MIN_VERSION_scotty
+#define MIN_VERSION_scotty(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  30 || \
+  (major1) == 0 && (major2) == 30 && (minor) <= 0)
+#endif /* MIN_VERSION_scotty */
+/* package text-2.0.2 */
+#ifndef VERSION_text
+#define VERSION_text "2.0.2"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  0 || \
+  (major1) == 2 && (major2) == 0 && (minor) <= 2)
+#endif /* MIN_VERSION_text */
+/* package vector-0.13.2.0 */
+#ifndef VERSION_vector
+#define VERSION_vector "0.13.2.0"
+#endif /* VERSION_vector */
+#ifndef MIN_VERSION_vector
+#define MIN_VERSION_vector(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 2)
+#endif /* MIN_VERSION_vector */
 
 /* tool gcc-13 */
 #ifndef TOOL_VERSION_gcc
