@@ -11,10 +11,13 @@ executable haskell
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
 
   build-depends:
-    base >=4.7 && <5,
-    scotty,
-    text,
-    bytestring,
-    cassava,
-    vector,
-    directory
+      base        >=4.7 && <5
+    , scotty
+    , text
+    , bytestring
+    , cassava
+    , vector
+    , directory
+    , aeson
+    , containers
+    , mtl
